@@ -1,0 +1,10 @@
+[uwsgi]
+module = app
+callable = app
+
+socket = /home/ubuntu/startbootstrap-stylish-portfolio-gh-pages/home.sock
+chmod-socket = 666
+vacuum = true
+
+demonize = /home/ubuntu/startbootstrap-stylish-portfolio-gh-pages/uwsgi.log
+die-on-term = true
