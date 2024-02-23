@@ -4,3 +4,4 @@ env.py
 log/
 *.pyc
 *.ini
+flask_env/*
